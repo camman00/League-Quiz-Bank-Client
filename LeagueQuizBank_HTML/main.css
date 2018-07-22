@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+#wrapper {
+    width: 10%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 300px;
+}
+#user_pass_wrapper {
+    display: inherit;
+}
+#student_teacher_wrapper {
+    display: flex;
+}
+
