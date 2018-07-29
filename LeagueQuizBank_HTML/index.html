@@ -23,12 +23,12 @@
                             <input type="text" placeholder="Username" name="usrname" class='default_input' id='username_input'><br>
                         </div>
                         <div id='password'>
-                            <input type="text" placeholder="Password" class='default_input'><br>
+                            <input type="text" placeholder="Password" class='default_input' id='password_input'><br>
                         </div>
                     </div>
                     <div id=student_teacher_wrapper>
                         <div id='student'>
-                            <button class='select_button' id='student_button'>Student</button>
+                            <button class='select_button' id='student_button' onclick="testFunction()">Student</button>
                         </div>
                         <div id='teacher'>
                             <button class='select_button' id='teacher_button'>Teacher</button>
@@ -37,15 +37,15 @@
                 </div>
             </div>
             <div id='footer'>
-                <div id='panel_left'>
+                <a id='panel_left' href='http://www.jointheleague.org/'>
                     <img id='league_bolt' src='bolt.png' />
-                </div>
+                </a>
                 <div id='center'>
                     <p id='footer_text'>The League Quiz Bank was created by Team Starfish. Check out their GitHub by clicking the right side icon! </p>
                 </div>
-                <div id='panel_right'>
+                <a id='panel_right' href='https://github.com/Team-Starfish-001'>
                     <img id='github' src="transparentgithub.png" />
-                </div>
+                </a>
             </div>
         </div>
     </body>
