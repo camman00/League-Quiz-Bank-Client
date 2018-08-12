@@ -124,6 +124,18 @@ body {
     margin-left: 100px;
     padding-right: 100px;
     padding-bottom: 1000px;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+}
+#content > * {
+    margin-left: 20px;
+}
+#content > center > * {
+    margin-right: 80px;
+}
+#content > * {
+    
 }
 #tint_cover {
     /*position: absolute;
@@ -212,3 +224,4 @@ body {
 #panel_exit:hover {
     background-color: red;
 }
+/*Use javascript to add a right margin at every hr*/
